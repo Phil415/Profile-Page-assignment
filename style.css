@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+#nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+#navLinks{
+    display: flex;
+    gap: 15px;
+    color: white;
+    list-style: none;
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    padding:  15px;
+    gap: 15px;
+}
+
+.col, .col-2{
+    height: 600px;
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+}
+
+.col-2{
+    flex:2;
+}
+
+.card{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardTop{
+    background-color: turquoise;
+}
+
+.cardTop img{
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.cardBottom{
+    padding: 15px;
+}
+
+#profile .cardBottom{
+    padding-top: 25px;
+}
+
+#education{
+    height: 150px;
+}
+
+#requests{
+    height: 150px;
+}
+
+#connections{
+    height: 200px;
+}
